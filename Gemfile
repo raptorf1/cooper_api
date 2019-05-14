@@ -12,6 +12,8 @@ gem 'puma', '~> 3.7'
 gem 'bootsnap', '>= 1.2', require: false
 gem 'jbuilder', '~> 2.5'
 gem 'rack-cors', require: 'rack/cors'
+gem 'devise_token_auth'
+gem 'devise'
 
 group :development, :test do
   gem 'pry-rails'
