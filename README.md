@@ -26,7 +26,7 @@ For the pusrposes of this project we built a backend API solution using Ruby on 
 
 # Prerequisites
 
-You must have `Ruby`, `Ruby on Rails`, `Node.js` & `Bundler` installed in your system to be able to view this app and run all feature, unit and acceptance tests. After forking the repository run `bundle install` so that you download all the gems used in the project.
+You must have `Ruby`, `Ruby on Rails`, `Node.js`, `Bundler` and `PostgreSQL` installed in your system to be able to view this app and run all feature, unit and acceptance tests. After forking the repository run `bundle install` so that you download all the gems used in the project.
 
 # Installing
 
