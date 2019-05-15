@@ -40,9 +40,15 @@ You must have `Ruby`, `Ruby on Rails`, `Node.js`, `Bundler` and `PostgreSQL` ins
 
 # Built With
 
-* Ruby version 2.4.1
-* Ruby on Rails version 5.2.0
-* React
+* [Ruby version 2.4.1](https://www.ruby-lang.org/en/)
+* [Ruby on Rails version 5.2.0](https://rubyonrails.org/)
+* [React](https://reactjs.org/)
+
+# Tested With
+
+* [Rspec - Behvavior Driven Development for Ruby](https://rspec.info/)
+* [Cypress - a complete end-to-end testing experience](https://www.cypress.io/) 
+* [Jest & Enzyme testing frameworks for React](https://www.npmjs.com/package/jest-enzyme)
 
 # Authors
 
