@@ -3,21 +3,21 @@ RSpec.describe 'Sessions', type: :request do
   let(:headers) { { HTTP_ACCEPT: 'application/json' } }
 
   describe 'POST /api/v1/auth/sign_in' do
-    # it 'valid credentials returns user' do
-    #   post '/api/v1/auth/sign_in', params: { email: user.email,
-    #                                          password: user.password
-    #                                       }, headers: headers
+    it 'valid credentials returns user' do
+      post '/api/v1/auth/sign_in', params: { email: user.email,
+                                             password: user.password
+                                          }, headers: headers
 
-    #   expected_response = {
-    #     'data' => {
-    #       'id' => user.id, 'uid' => user.email, 'email' => user.email,
-    #       'provider' => 'email', 'name' => nil, 'nickname' => nil,
-    #       'image' => nil, 'allow_password_change' => false
-    #     }    
-    #   }
+      expected_response = {
+        'data' => {
+          'id' => user.id, 'uid' => user.email, 'email' => user.email,
+          'provider' => 'email', 'name' => nil, 'nickname' => nil,
+          'image' => nil, 'allow_password_change' => false
+        }    
+      }
 
-    #   expect(response_json).to eq expected_response
-    # end
+      expect(response_json).to eq expected_response
+    end
 
     it 'invalid password returns error message' do
       post '/api/v1/auth/sign_in', params: { email: user.email,
