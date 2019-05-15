@@ -21,8 +21,8 @@ Dr. Cooper found that there is a very high correlation between the distance some
 # Getting Started
 
 For the pusrposes of this project we built a backend API solution using Ruby on Rails and a frontend client solution using React. The repositories where the code is available are the following:
-* **Leiter007** [API](https://github.com/leiter007/cooper_api), [Client]()
-* **Raptorf1** [API](https://github.com/raptorf1/cooper_api), [Client]()
+* **Leiter007** [API](https://github.com/leiter007/cooper_api), [Client](https://github.com/leiter007/cooper_client)
+* **Raptorf1** [API](https://github.com/raptorf1/cooper_api), [Client](https://github.com/raptorf1/cooper_client)
 
 # Prerequisites
 
